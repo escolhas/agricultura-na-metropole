@@ -1,0 +1,5162 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <title>A agricultura na metrópole | Instituto Escolhas</title>
+  <meta name="description" content='Conheça, de forma interativa, o potencial e os desafios para a produção de alimentos na região metropolitana de São Paulo.' />
+  <meta name="viewport" content="width=1024" />
+
+  <meta property="og:title" content="A agricultura na metrópole | Instituto Escolhas" />
+  <meta property="og:site_name" content="A agricultura na metrópole | Instituto Escolhas" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content='Conheça, de forma interativa, o potencial e os desafios para a produção de alimentos na região metropolitana de São Paulo.' />
+  <meta property="og:url" content="https://agriculturanametropole.escolhas.org" />
+  <meta property="og:image" itemprop="image" content="https://escolhas-aup.mappinglab.me/static/images/social-300x300.jpg" />
+  <meta property="og:image:secure_url" itemprop="image" content="https://escolhas-aup.mappinglab.me/static/images/social-300x300.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="300" />
+  <meta property="og:image:height" content="300" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta
+    name="twitter:description"
+    content='Conheça, de forma interativa, o potencial e os desafios para a produção de alimentos na região metropolitana de São Paulo.'
+  />
+  <meta name="twitter:title" content="A agricultura na metrópole | Instituto Escolhas" />
+  <meta name="twitter:site" content="@_escolhas" />
+  <meta
+    name="twitter:image"
+    content="https://escolhas-aup.mappinglab.me/static/images/social-600x300.jpg"
+  />
+  <meta name="twitter:creator" content="@_escolhas" />
+
+  <link rel="apple-touch-icon" href="/static/images/apple-touch-icon.png" />
+  <!-- Place favicon.ico in the root directory -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js" integrity="sha512-FHsFVKQ/T1KWJDGSbrUhTJyS1ph3eRrxI228ND0EGaEp6v4a/vGwPWd3Dtd/+9cI7ccofZvl/wulICEurHN1pg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.min.js" integrity="sha512-+IpCthlNahOuERYUSnKFjzjdKXIbJ/7Dd6xvUp+7bEw0Jp2dg6tluyxLs+zq9BMzZgrLv8886T4cBSqnKiVgUw==" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@400;700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.min.css" integrity="sha512-cznfNokevSG7QPA5dZepud8taylLdvgr0lDqw/FEZIhluFsSwyvS81CMnRdrNSKwbsmc43LtRd2/WMQV+Z85AQ==" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="/static/css/normalize.css" />
+  <link rel="stylesheet" href="/static/css/style.css?37780" />
+  <script src="/static/scripts/ScrollTrigger.min.js"></script>
+</head>
+<body>
+<div class="rotate-screen">
+  <img src="/static/images/icon-rotate-screen.svg">
+  <span>Coloque a tela na horizontal.</span>
+</div>
+<div class="wrapper">
+  <div id="top-header">
+  <a href="https://www.escolhas.org" target="_blank" class="logo-link">
+    <img src="/static/images/logo-escolhas-preto.svg" alt="Instituto Escolhas" class="logo" />
+  </a>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#estudo">Estudo</a></li>
+      <li><a href="#sintese">Mapa</a></li>
+      <li><a href="#metodologia">Sobre</a></li>
+      <li><a href="#dados-abertos">Dados abertos</a></li>
+    </ul>
+  </nav>
+</div>
+
+<header class="parallax" id="home">
+  <div class="background">
+    <div class="content container">
+      <div class="content-child">
+        <h1>
+          Mais perto do que se
+          imagina: os desafios
+          da produ&ccedil;&atilde;o de
+          alimentos na
+          metr&oacute;pole de S&atilde;o
+          Paulo
+        </h1>
+      </div>
+
+      <div class="content-child">
+        <p>
+          De onde vêm os alimentos que consumimos diariamente? De longe ou
+          muito longe, muitos responderiam.
+        </p>
+        <p>
+          Mas voc&ecirc; sabia que a produ&ccedil;&atilde;o na metr&oacute;pole de S&atilde;o Paulo tem o
+          potencial de alimentar com legumes e verduras 20 milh&otilde;es de pessoas
+          e gerar 180 mil postos de trabalho?
+        </p>
+        <p>
+          Essa viabilidade econ&ocirc;mica da produ&ccedil;&atilde;o local de alimentos, muitas
+          vezes invis&iacute;vel, foi tema de estudo in&eacute;dito do <strong>Instituto Escolhas</strong>.
+        </p>
+        <p>
+          &quot;Mais perto do que imagina: os desafios da produ&ccedil;&atilde;o de alimentos na
+          metr&oacute;pole de S&atilde;o Paulo&quot; investigou o potencial da agricultura urbana
+          e periurbana de tornar o sistema alimentar da maior metr&oacute;pole do pa&iacute;s
+          mais sustent&aacute;vel e resiliente.
+        </p>
+        <p>
+          Role a tela para baixo e navegue pelos dados do estudo.
+        </p>
+      </div>
+
+      <div class="content-child call-to-action">
+        <div class="logos">
+          <div class="logo">
+            Apoio
+            <a href="#" target="_blank">
+              <img src="/static/images/logo-porticus.png" alt="Porticus">
+            </a>
+          </div>
+
+          <div class="logo">
+            Parceria
+            <a href="#" target="_blank">
+              <img src="/static/images/logo-urbem-branco.png" alt="Instituto URBEM">
+            </a>
+          </div>
+
+          <div class="logo">
+            Realização
+            <a href="#" target="_blank">
+              <img src="/static/images/logo-escolhas.svg" alt="Instituto Escolhas">
+            </a>
+          </div>
+        </div>
+
+        <div class="continue">
+          <img src="/static/images/icon-arrow.svg" alt="Seta para baixo" class="bounce" />
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  
+    
+      
+<section id="estudo">
+  <div class="container section-logo-two-blocks">
+    
+      <div class="section-logo">
+        <div>
+          
+            <img src="/static/images/icon-lettuce.svg" alt="&amp;iacute;cone de alface" class="title-logo" />
+          
+        </div>
+        <div>
+          
+        </div>
+      </div>
+    
+
+    <div class="section-content">
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <h2>O sistema alimentar da metr&oacute;pole de S&atilde;o Paulo</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            O estudo levantou dados sobre produ&ccedil;&atilde;o, processamento,
+distribui&ccedil;&atilde;o e consumo de produtos aliment&iacute;cios no
+recorte territorial da Regi&atilde;o Metropolitana de S&atilde;o Paulo
+(RMSP).
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            Partindo do consumo, que &eacute; a rela&ccedil;&atilde;o mais pr&oacute;xima
+que temos com a comida, atravessamos o universo que
+existe por detr&aacute;s das prateleiras, bancas e mesas dos
+estabelecimentos alimentares, at&eacute; chegar na agricultura
+que existe na metr&oacute;pole.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            A Regi&atilde;o Metropolitana de S&atilde;o Paulo (RMSP) &eacute; o maior
+aglomerado urbano da Am&eacute;rica Latina. S&atilde;o <strong>39</strong> munic&iacute;pios,
+que concentram <strong>17,7%</strong> do PIB nacional e cerca de <strong>21,6
+milh&otilde;es</strong> de habitantes, <strong>10%</strong> da popula&ccedil;&atilde;o nacional.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <img
+            src="/static/images/graph-rmsp.svg"
+            alt="Mapa de iniciativas"
+            
+            
+            
+          />
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+    
+  
+    
+      
+<section>
+  <div class="container section-logo-two-blocks">
+    
+      <div class="section-logo">
+        <div>
+          
+        </div>
+        <div>
+          
+            <img src="/static/images/icon-gear.svg" alt="&amp;iacute;cone de prato" class="title-logo" />
+          
+        </div>
+      </div>
+    
+
+    <div class="section-content">
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p class="data-legend">
+            Ocupação no segmento alimentar, RMSP em 2017/18, em milhares
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <div id='chart-industria'></div>
+
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <h2>A economia dos alimentos na metr&oacute;pole</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            As atividades voltadas &agrave; alimenta&ccedil;&atilde;o re&uacute;nem <strong>1,3 milh&atilde;o</strong>
+de pessoas, nos setores de produ&ccedil;&atilde;o, ind&uacute;stria, com&eacute;rcio e servi&ccedil;os.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            Esse n&uacute;mero corresponde a aproximadamente <strong>13%</strong> da
+popula&ccedil;&atilde;o ocupada na RMSP, o dobro do n&uacute;mero de
+empregados da constru&ccedil;&atilde;o civil.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p class="data-legend">
+            Fonte: Pesquisa Nacional por Amostra de Domicílios (PNAD), Instituto Brasileiro de Geografia e
+Estatística (IBGE) — RMSP 2012 a 2018.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+    
+  
+    
+      
+<section class="parallax section-consumo">
+
+
+
+
+  <div class="container full-height section-two-blocks light">
+    <div class="section-content-block parallax-box ">
+      
+        
+  
+
+
+
+  
+    
+      
+
+        
+          <img
+            src="/static/images/icon-cart.svg"
+            alt="&amp;iacute;cone de carrinho de compra"
+            
+              class="title-logo"
+            
+            
+            
+          />
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <h2>Consumo</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            A quantidade de frutas, legumes e verduras (FLV) adquirida
+para consumo vem diminuindo.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p class="data-legend">
+            Fonte: Dados da Pesquisa de Orçamentos Familiares (POF), Instituto Brasileiro de Geografia 
+e Estatística (IBGE) — RMSP 1987/88, 1995/96, 2002/03, 2008/09 e 2017/18.
+A POF classifica categoria de hortaliças as folhosas e florais, frutosas, tuberosas e outras. 
+Estão incluídos, portanto, verduras (alface, acelga, couve, repolho, brócolis, couve-flor, etc), 
+legumes (abóbora, berinjela, pimentão, tomate, etc), raízes e tubérculos (batatas, cenoura, mandioca, etc).
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+      
+    </div>
+    <div class="section-content-block parallax-box ">
+      
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p class="data-legend">
+            Aquisição domiciliar mensal per capita, RMSP, em kg
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p class="data-legend">
+            (Clique para ligar e desligar as categorias no gr&aacute;fico.)
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <div id="chart-frutas"></div>
+
+        
+
+
+      
+    
+  
+
+
+        
+    </div>
+  </div>
+
+
+
+</section>
+
+    
+  
+    
+      
+<section>
+  <div class="container section-logo-two-blocks">
+    
+      <div class="section-logo">
+        <div>
+          
+            <img src="/static/images/icon-hat.svg" alt="&amp;iacute;cone de chap&amp;eacute;u" class="title-logo" />
+          
+        </div>
+        <div>
+          
+        </div>
+      </div>
+    
+
+    <div class="section-content">
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <h2>Na RMSP, a alimenta&ccedil;&atilde;o fora
+de casa representa quase
+40% do or&ccedil;amento alimentar
+m&eacute;dio
+</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            O h&aacute;bito de comer fora de casa tem se consolidado na
+rotina dos brasileiros de todas as classes sociais, com
+menor for&ccedil;a nas classes mais pobres.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p class="data-legend">
+            Fonte: Participação da alimentação fora do domicílio no gasto alimentar, segundo décimos de renda familiar per
+capita – RMSP, 2017/2018. Dados da Pesquisa de Orçamentos Familiares (POF), Instituto Brasileiro de Geografia e
+Estatística (IBGE) — RMSP 1987/88, 1995/96, 2002/03, 2008/09 e 2017/18.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p class="data-legend">
+            Participação da alimentação fora no gasto alimentar, por décimo de renda familiar per capita, RMSP em 2017/2018, em %
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <div class="text-center">
+            <embed src="/static/images/graph-alimentacao.svg" type="image/svg+xml" />
+          </div>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+    
+  
+    
+      
+<section>
+  <div class="container section-logo-two-blocks">
+    
+      <div class="section-logo">
+        <div>
+          
+        </div>
+        <div>
+          
+            <img src="/static/images/icon-truck.svg" alt="&amp;iacute;cone de caminh&amp;atilde;o" class="title-logo" />
+          
+        </div>
+      </div>
+    
+
+    <div class="section-content">
+      <div class="section-content-block multiple-imgs">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <img
+            src="/static/images/graph-circuito-short.svg"
+            alt="Circuitos curtos"
+            
+            
+            
+          />
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <img
+            src="/static/images/graph-circuito-long.svg"
+            alt="Circuitos longos"
+            
+            
+            
+          />
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <h2>Comercializa&ccedil;&atilde;o</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            A comercializa&ccedil;&atilde;o de alimentos pode ser definida a
+partir do n&uacute;mero de intermedi&aacute;rios entre a produ&ccedil;&atilde;o e o
+consumidor final.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+    
+  
+    
+      
+<section class="parallax section-frutas">
+
+
+
+
+  <div class="container full-height section-two-blocks light">
+    <div class="section-content-block parallax-box ignore">
+      
+        
+  
+
+
+
+  
+    
+  
+
+
+      
+    </div>
+    <div class="section-content-block parallax-box ">
+      
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p>
+            No Brasil, a comercializa&ccedil;&atilde;o de alimentos &eacute; realizada por
+meio de uma ampla gama de estabelecimentos privados e
+p&uacute;blicos.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            Os <strong>supermercados</strong> concentram <strong>47%</strong> das compras para
+fins dom&eacute;sticos.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Feiras livres e o com&eacute;rcio especializado</strong> se destacam
+dentro do com&eacute;rcio de pescados, frutas, legumes e
+verduras.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            A <strong>rede p&uacute;blica de abastecimento</strong> (como mercados
+p&uacute;blicos, sacol&otilde;es, feiras, centrais p&uacute;blicas de
+abastecimento, restaurantes p&uacute;blicos, bancos de
+alimentos e, tamb&eacute;m, escolas, que fornecem alimenta&ccedil;&atilde;o
+para os alunos) tamb&eacute;m tem um papel significativo na
+comercializa&ccedil;&atilde;o e no fornecimento de alimentos.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+    </div>
+  </div>
+
+
+
+</section>
+
+    
+  
+    
+      
+  <!-- Mapa Comercializacao -->
+  <section class="section map" id="comercializacao">
+    <div class="controls">
+      <div class="title">
+        <h1>
+          Estabelecimentos
+de comercializa&ccedil;&atilde;o e
+oferta de alimentos
+na RMSP
+
+        </h1>
+        <p class="instructions">
+          Clique para ligar e desligar as categorias abaixo
+        </p>
+      </div>
+      <div class="layer-controls">
+        <div class="clearfix">
+          <ul class="map-controls">
+            <li class="map-control-toggle">
+              <a href="#" id="comercializacao-eq-abastecimento"> <span class="map-toggle-icon-color"></span>Abastecimento p&uacute;blico</a>
+              <ul class="map-layer-legend">
+                <li><span class="map-toggle-icon-color bg_restaurante_popular"></span>Restaurante Popular / Bom Prato</li>
+                <li><span class="map-toggle-icon-color bg_feiras"></span>Feiras</li>
+                <li><span class="map-toggle-icon-color bg_banco_alimentos"></span>Banco de Alimentos</li>
+                <li><span class="map-toggle-icon-color bg_cozinha_comunitaria"></span>Cozinha Comunit&aacute;ria</li>
+                <li><span class="map-toggle-icon-color bg_mercado_municipal"></span>Mercados Municipais</li>
+                <li><span class="map-toggle-icon-color bg_sacolao"></span>Varej&atilde;o / Sacol&atilde;o</li>
+              </ul>
+            </li>
+            <li class="map-control-toggle">
+              <a href="#" id="comercializacao-escola-publica"> <span class="map-toggle-icon-color"></span>Escolas p&uacute;blicas</a>
+              <ul class="map-layer-legend">
+                <li><span class="map-toggle-icon-color bg_escolas"></span>Ensino infantil / fundamental</li>
+              </ul>
+            </li>
+            <li class="map-control-toggle">
+              <a href="#" id="comercializacao-hex-misto-innat"> <span class="map-toggle-icon-color"></span>Estabelecimentos in natura + misto</a>
+              <ul class="map-layer-progress bg_in_natura">
+                <li><span class="progress-color progress-20"></span>&lt;10</li>
+                <li><span class="progress-color progress-40"></span>25</li>
+                <li><span class="progress-color progress-60"></span>50</li>
+                <li><span class="progress-color progress-80"></span>100</li>
+                <li><span class="progress-color progress-100"></span>&gt;100</li>
+              </ul>
+            </li>
+            <li class="map-control-toggle">
+              <a href="#" id="comercializacao-hex-ultra"> <span class="map-toggle-icon-color"></span>Estabelecimentos ultraprocessados</a>
+              <ul class="map-layer-progress bg_ultraprocessados">
+                <li><span class="progress-color progress-20"></span>&lt;10</li>
+                <li><span class="progress-color progress-40"></span>25</li>
+                <li><span class="progress-color progress-60"></span>50</li>
+                <li><span class="progress-color progress-80"></span>100</li>
+                <li><span class="progress-color progress-100"></span>&gt;100</li>
+              </ul>
+            </li>
+            <li class="map-control-toggle no-margin"><span class="map-toggle-icon-color bg_rmsp"></span>Limite RMSP</li>
+            <li class="map-control-toggle no-margin"><span class="map-toggle-icon-color bg_municipios"></span>Limite munic&iacute;pios</li>
+            <li class="map-control-toggle no-margin"><span class="map-toggle-icon-color bg_area_urbana"></span>&Aacute;rea urbana</li>
+          </ul>
+          <div class="help-button open-modal">
+            <a href="#ajuda" data-target="comercializacao-producao-map-definitions"><img src="/static/images/icon-help.svg" alt="Ajuda" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="map-container">
+      <div class="map-display" id="comercializacao-map-container"></div>
+      <div class="map-definitions" id="comercializacao-producao-map-definitions">
+        <nav class="close-nav">
+          <a href="#close" data-target="comercializacao-producao-map-definitions"><img src="/static/images/icon-close.svg" alt="Fechar" /></a>
+        </nav>
+        <div class="map-definitions-content">
+          <div class="map-definitions-container">
+             <h1>Metodologia</h1>
+<p>
+  A C&acirc;mara Interministerial de Seguran&ccedil;a Alimentar e Nutricional (CAISAN) classifica os
+  estabelecimentos privados de abastecimento identificados na Rela&ccedil;&atilde;o Anual de informa&ccedil;&otilde;es
+  Sociais (RAIS) em tr&ecirc;s categorias, considerando onde a popula&ccedil;&atilde;o adquire predominantemente
+  alimentos ultraprocessados, in natura ou mistos, isto &eacute;, onde se adquirem ambas categorias.
+</p>
+<p>
+  Os estabelecimentos da categoria <strong>in natura</strong> s&atilde;o a&ccedil;ougues, peixarias e varejista de
+  hortifrutigranjeiros. Os estabelecimentos da categoria <strong>mistos</strong> s&atilde;o hipermercados, supermercados,
+  minimercados, mercearias, padarias, varejista de latic&iacute;nios e frios, restaurantes, ambulantes de
+  alimenta&ccedil;&atilde;o, cantinas e de alimentos preparados para consumo domiciliar. E os estabelecimentos
+  da categoria <strong>ultraprocessados</strong> s&atilde;o varejista de doces, balas e semelhantes, lojas de conveni&ecirc;ncia,
+  lanchonetes, bares, casas de ch&aacute;, de sucos e similares.
+</p>
+<p>
+  Segundo o Guia Alimentar para a Popula&ccedil;&atilde;o Brasileira, alimentos ultraprocessados s&atilde;o aqueles
+  de fabrica&ccedil;&atilde;o feita, em geral, em ind&uacute;strias de grande porte, envolvendo diversas etapas de
+  processamentos e muitos ingredientes, incluindo sal, a&ccedil;&uacute;car, &oacute;leos, gorduras e subst&acirc;ncias
+  sintetizadas em laborat&oacute;rio a partir de outras fontes org&acirc;nicas. Al&eacute;m disso, s&atilde;o nutricionalmente
+  desbalanceados. Alguns exemplos s&atilde;o guloseimas, bebidas ado&ccedil;adas natural ou artificialmente,
+  produtos congelados.
+</p>
+<p>
+  Todas as fontes cartográficas utilizadas estão descritas no Mapa Síntese.
+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- Mapa Comercializacao -->
+    
+  
+    
+      <section>
+  <div class="container section-logo-two-blocks">
+
+    
+    <div class="section-content">
+      <div class="section-content-block">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <h2>Frutas, legumes e verduras
+comercializadas no ETSP,
+segundo o município de
+origem (2019)
+</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p class="data-legend">
+            Fonte: Dados Ceagesp, 2019. A Ceagesp é uma empresa pública federal vinculada ao
+Ministério da Economia responsável por 18 armazéns e entrepostos no Estado de São Paulo. 
+A ETSP é a maior unidade da empresa.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p>
+            O Entreposto Terminal de São Paulo (ETSP) – mais
+conhecido como Ceagesp e localizado no município de São
+Paulo – é a maior central de abastecimento da América
+Latina e concentra grande parte do abastecimento da
+RMSP.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>
+  Pelo Ceagesp, passam frutas, legumes, verduras,
+  flores, pescados e outros produtos de 1.500 municípios
+  brasileiros e 18 países!
+</strong>
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+    </div>
+    <div class="section-content extra-line">
+      
+        
+  
+
+
+
+  
+    
+      
+
+        
+          <div class="graph magnifier">
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <img
+            src="/static/images/graph-zoom-frutas.png"
+            alt="frutas"
+            
+              class="to-magnify"
+            
+            
+            
+              data-to-display="to-display-frutas"
+            
+          />
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <img
+            src="/static/images/graph-zoom-legumes.png"
+            alt="legumes"
+            
+              class="to-magnify"
+            
+            
+            
+              data-to-display="to-display-legumes"
+            
+          />
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <img
+            src="/static/images/graph-zoom-verduras.png"
+            alt="verduras"
+            
+              class="to-magnify"
+            
+            
+            
+              data-to-display="to-display-verduras"
+            
+          />
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          </div>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <div id="magnifier-glass">
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <img
+            src="/static/images/graph-zoom-verduras-zoom.png"
+            alt="verduras"
+            
+            
+              id="to-display-verduras"
+            
+            
+          />
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <img
+            src="/static/images/graph-zoom-frutas-zoom.png"
+            alt="frutas"
+            
+            
+              id="to-display-frutas"
+            
+            
+          />
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <img
+            src="/static/images/graph-zoom-legumes-zoom.png"
+            alt="legumes"
+            
+            
+              id="to-display-legumes"
+            
+            
+          />
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          </div>
+        
+
+
+      
+    
+  
+
+
+      
+    </div>
+  </div>
+</section>
+    
+  
+    
+      <section>
+  <div class="container section-logo-two-blocks">
+
+    
+      <div class="section-logo">
+        <img src="/static/images/icon-land.svg" alt="&amp;iacute;cone de paisagem" class="title-logo" />
+      </div>
+    
+    <div class="section-content">
+      <div class="section-content-block">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <h2>Complexidades do Território</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            Uma parte significativa do território da RMSP é ocupada
+por áreas de proteção e conservação ambiental.
+A agricultura é praticada tanto dentro da área urbanizada,
+quanto em suas imediações, que sofrem com a pressão
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p>
+            por urbanização, dado o crescimento populacional das
+periferias urbanas e os usos diversos que requerem o
+convívio, por exemplo, com áreas de proteção ambiental.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p class="strong">
+            <strong>
+              O uso do solo na RMSP é distribuído da seguinte forma:
+
+            </strong>
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <span></span>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p class="data-legend">
+            Fonte: Mapbiomas, Coleção 5 (2019).
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+    </div>
+    <div class="section-content extra-line">
+      
+        
+  
+
+
+
+  
+    
+      
+
+        
+          <div class="graph numbers">
+  <div style="color: #093b41">
+    <span>45%</span>FORMA&Ccedil;&Otilde;ES<br />FLORESTAIS
+  </div>
+  <div style="color: #9c1c1f">
+    <span>26%</span>&Aacute;REA<br />URBANIZADA
+  </div>
+  <div style="color: #ff8a8a">
+    <span>22%</span>AGROPECU&Aacute;RIA</div>
+  <div style="color: #48757b">
+    <span>3%</span>FLORESTAS<br />PLANTADAS
+  </div>
+  <div style="color: #21b4ad">
+    <span>3%</span>RIO, LAGO<br />E OCEANO
+  </div>
+  <div style="color: #ed2124">
+    <span>1%</span>OUTROS<br/>USOS</div>
+</div>
+
+        
+
+
+      
+    
+  
+
+
+      
+    </div>
+  </div>
+</section>
+    
+  
+    
+        <!-- Mapa Agricultura Producao -->
+  <section class="section map" id="agricultura-producao">
+    <div class="controls">
+      <div class="title">
+        <h1>
+          Produ&ccedil;&atilde;o
+agropecu&aacute;ria e o
+territ&oacute;rio da RMSP
+
+        </h1>
+        <p class="instructions">
+          Clique para ligar e desligar as categorias abaixo
+        </p>
+      </div>
+      <div class="layer-controls">
+        <div class="clearfix">
+          <ul class="map-controls">
+            <li class="map-control-toggle">
+              <a href="#" id="agricultura-estabelecimentos-agro"> <span class="map-toggle-icon-color"></span>Estabelecimentos</a>
+              <ul class="map-layer-legend">
+                <li><span class="map-toggle-icon-color bg_agricultura_agropecuarios"></span>Agropecu&aacute;rios</li>
+              </ul>
+            </li>
+            <li class="map-control-toggle">
+              <a href="#" id="agricultura-producao-vbp"> <span class="map-toggle-icon-color"></span>Participa&ccedil;&atilde;o dos munic&iacute;pios no VBP</a>
+              <ul class="map-layer-progress bg_participacao">
+                <li><span class="progress-color progress-20"></span>&lt;1%</li>
+                <li><span class="progress-color progress-40"></span>5%</li>
+                <li><span class="progress-color progress-60"></span>10%</li>
+                <li><span class="progress-color progress-80"></span>30%</li>
+                <li><span class="progress-color progress-100"></span>35%</li>
+              </ul>
+            </li>
+            <li class="map-control-toggle">
+              <a href="#" id="agricultura-areas-ambientais"> <span class="map-toggle-icon-color"></span>&Aacute;reas ambientais</a>
+              <ul class="map-layer-legend">
+                <li><span class="map-toggle-icon-color square bg_agricultura_integral"></span>Unidade de Conserva&ccedil;&atilde;o de Prote&ccedil;&atilde;o Integral</li>
+                <li><span class="map-toggle-icon-color square bg_agricultura_sustentavel"></span>Unidade de Conserva&ccedil;&atilde;o de Uso Sustent&aacute;vel</li>
+                <li><span class="map-toggle-icon-color square bg_agricultura_mananciais"></span>&Aacute;reas de Prote&ccedil;&atilde;o e Recupera&ccedil;&atilde;o de Mananciais</li>
+                <li><span class="map-toggle-icon-color square bg_agricultura_verde"></span>&Aacute;reas verdes</li>
+              </ul>
+            </li>
+            <li class="map-control-toggle no-margin"><span class="map-toggle-icon-color bg_rmsp"></span>Limite RMSP</li>
+            <li class="map-control-toggle no-margin"><span class="map-toggle-icon-color bg_municipios"></span>Limite munic&iacute;pios</li>
+            <li class="map-control-toggle no-margin"><span class="map-toggle-icon-color bg_area_urbana"></span>&Aacute;rea urbana</li>
+          </ul>
+          <div class="help-button open-modal">
+            <a href="#ajuda" data-target="agricultura-producao-map-definitions"><img src="/static/images/icon-help.svg" alt="Ajuda" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="map-container">
+      <div class="map-display" id="agricultura-producao-map-container"></div>
+      <div class="map-definitions" id="agricultura-producao-map-definitions">
+        <nav class="close-nav">
+          <a href="#close" data-target="agricultura-producao-map-definitions"><img src="/static/images/icon-close.svg" alt="Fechar" /></a>
+        </nav>
+        <div class="map-definitions-content">
+          <div class="map-definitions-container">
+            <h1>Defini&ccedil;&otilde;es</h1>
+<h2>Valor Bruto da Produ&ccedil;&atilde;o - VBP</h2>
+<p>
+  Calculado pelo IBGE tendo como base informa&ccedil;&otilde;es coletadas no recenseamento.
+</p>
+<h2>Unidades de Conserva&ccedil;&atilde;o de Prote&ccedil;&atilde;o Integral - UCI</h2>
+<p>
+  As Unidades de Conserva&ccedil;&atilde;o de Prote&ccedil;&atilde;o Integral (UCI - Lei Federal 9.985/2000) t&ecirc;m como prop&oacute;sito a preserva&ccedil;&atilde;o da natureza, sendo admitido apenas o uso indireto dos
+  seus recursos naturais, com exce&ccedil;&atilde;o de alguns casos, de acordo com o Plano de Manejo. Para al&eacute;m dos limites circunscritos &agrave;s UC, em seu entorno s&atilde;o previstas Zonas de Amortecimento (ZA),
+  onde os usos do solo e dos recursos naturais e ambientais tamb&eacute;m s&atilde;o regidos de acordo com zoneamento espec&iacute;fico.
+</p>
+<h2>Unidades de Conserva&ccedil;&atilde;o de Uso Sustent&aacute;vel - UCS</h2>
+<p>
+  As Unidades de Conserva&ccedil;&atilde;o de Uso Sustent&aacute;vel (UCS - Lei Federal 9.985/2000) t&ecirc;m o objetivo de compatibilizar a conserva&ccedil;&atilde;o da natureza com o uso sustent&aacute;vel de parcela dos
+  seus recursos naturais. Existem diversas UCS na RMSP que permitem a atividade agrícola, também de acordo com o Plano de Manejo aprovado por órgão público responsável. 
+  Nelas, são preconizados o manejo orgânico e as práticas agrícolas sustentáveis.
+</p>
+<h2>&Aacute;rea de Prote&ccedil;&atilde;o dos Mananciais - APM</h2>
+<p>
+  As &Aacute;reas de Prote&ccedil;&atilde;o de Mananciais (APM - Leis Estaduais 898/1975 e 1.172/1976) compreendem seis reservat&oacute;rios e 12 cursos d&rsquo;&aacute;gua de interesse da RMSP, sendo previsto o
+  licenciamento de atividades agr&iacute;colas no territ&oacute;rio da APM. As APM est&atilde;o em processo de transi&ccedil;&atilde;o para &Aacute;reas de Prote&ccedil;&atilde;o e Recupera&ccedil;&atilde;o dos Mananciais
+  (APRM).
+</p>
+<h2>&Aacute;rea de Prote&ccedil;&atilde;o e Recupera&ccedil;&atilde;o dos Mananciais - APRM</h2>
+<p>
+  A nova pol&iacute;tica de mananciais, (Lei Estadual 9.866/97) considerou uma ou mais sub-bacias hidrogr&aacute;ficas dos mananciais da RMSP como uma &Aacute;rea de Prote&ccedil;&atilde;o e Recupera&ccedil;&atilde;o dos
+  Mananciais (APRM). As APRM s&atilde;o criadas por lei espec&iacute;fica e possuem planejamento de ocupa&ccedil;&atilde;o territorial para diversas atividades, atrav&eacute;s de &Aacute;reas de Interven&ccedil;&atilde;o.
+  S&atilde;o cinco APRM j&aacute; criadas e que possuem diferentes estrat&eacute;gias e conte&uacute;dos de regulamenta&ccedil;&atilde;o, de acordo com as caracter&iacute;sticas do territ&oacute;rio de cada sub-bacia
+  hidrogr&aacute;fica. Est&aacute; prevista ainda a cria&ccedil;&atilde;o de outras cinco APRMs.
+</p>
+<p>
+  Todas as fontes cartográficas utilizadas estão descritas no Mapa Síntese.
+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- Mapa Agricultura Producao -->
+    
+  
+    
+      
+<section>
+  <div class="container section-logo-two-blocks">
+    
+      <div class="section-logo">
+        <div>
+          
+            <img src="/static/images/icon-unit.svg" alt="&amp;iacute;cone de unidades agropecuárias" class="title-logo" />
+          
+        </div>
+        <div>
+          
+        </div>
+      </div>
+    
+
+    <div class="section-content">
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <h2>Unidades agropecuárias</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>5.083</strong>
+estabelecimentos agropecuários
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>20 mil</strong>
+trabalhadores
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>65%</strong>
+dos estabelecimentos de até 20 hectares, que empregam 74,8% da mão de obra e produzem 60,8%
+do chamado Valor Bruto de Produção (VBP)
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>35%</strong>
+do VBP da agropecuária na RMSP está no município de Mogi das Cruzes
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p class="data-legend">
+            Fonte: De acordo com o Censo Agropecuário do IBGE (2017), os estabelecimentos da Agricultura Familiar se
+caracterizam por possuírem área de até 4 módulos fiscais (na RMSP, até 20 ha ou 38 ha), estarem sob gestão
+estritamente familiar, possuir mais da metade da força de trabalho empregada no estabelecimento e retirar dali,
+no mínimo, metade de seus rendimentos. Ainda segundo o IBGE, a Agricultura Familiar pode ser subdividida,
+de acordo com a renda e enquadramento no Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf):
+Pronaf B (até R$ 20 mil), Pronaf V (entre R$ 20 e 360 mil) e não Pronafiano (acima de R$ 360 mil).
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p class="data-legend">
+            Distribuição dos estabelecimentos, segundo o tipo de agricultura na RMSP, IBGE 2017
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <div id="chart-estabelecimentos"></div>
+
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+    
+  
+    
+      
+<section>
+  <div class="container section-logo-two-blocks">
+    
+      <div class="section-logo">
+        <div>
+          
+        </div>
+        <div>
+          
+            <img src="/static/images/icon-lettuce.svg" alt="&amp;iacute;cone de alface" class="title-logo" />
+          
+        </div>
+      </div>
+    
+
+    <div class="section-content">
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p class="data-legend">
+            Número de estabelecimentos por grupo de atividade econômica, segundo o tipo de agricultura na RMSP, IBGE 2017
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <div id="chart-estabelecimentos-agro"></div>
+
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <h2>O reinado do alface</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            A agropecuária na metrópole é especializada em horticultura, setor que responde por <strong>63,5%</strong>
+da produção.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p class="data-legend">
+            Fonte: Censo Agropecuário 2017, IBGE
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+    
+  
+    
+      
+<section>
+  <div class="container section-logo-two-blocks">
+    
+
+    <div class="section-content">
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p>
+            Dentre as hortaliças, o principal produto é o alface, que corresponde a quase 1⁄4 da produção
+e o outro quarto corresponde à produção de cogumelos e couve. A especialização se reflete no
+mercado nacional, no qual a RMSP responde por 52% dos cogumelos, 52% do espinafre, 16% da couve,
+10% do repolho e 9% da alface produzidos no país.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p class="data-legend">
+            Fonte: Censo Agropecuário 2017, IBGE
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p class="data-legend">
+            Participação dos principais produtos no VBP da horticultura – RMSP, IBGE 2017
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <div id="chart-estabelecimentos-vbp"></div>
+
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+    
+  
+    
+      <section class="section-tipologias">
+
+  <div class="tipologias-titles">
+    
+      <div class="tipologias-title tipologias-title-1">
+        <div class="tipologias-title-background">
+        </div>
+        <a href="#tipologias-1" data-target-id='tipologias-content-1'>
+          Agricultura comercial de médio e grande porte
+        </a>
+      </div>
+    
+      <div class="tipologias-title tipologias-title-2">
+        <div class="tipologias-title-background">
+        </div>
+        <a href="#tipologias-2" data-target-id='tipologias-content-2'>
+          Agricultura comercial de pequeno porte
+        </a>
+      </div>
+    
+      <div class="tipologias-title tipologias-title-3">
+        <div class="tipologias-title-background">
+        </div>
+        <a href="#tipologias-3" data-target-id='tipologias-content-3'>
+          Agricultura comercial familiar
+        </a>
+      </div>
+    
+      <div class="tipologias-title tipologias-title-4">
+        <div class="tipologias-title-background">
+        </div>
+        <a href="#tipologias-4" data-target-id='tipologias-content-4'>
+          Agricultura multifuncional
+        </a>
+      </div>
+    
+      <div class="tipologias-title tipologias-title-5">
+        <div class="tipologias-title-background">
+        </div>
+        <a href="#tipologias-5" data-target-id='tipologias-content-5'>
+          Agricultura urbana multifuncional
+        </a>
+      </div>
+    
+      <div class="tipologias-title tipologias-title-6">
+        <div class="tipologias-title-background">
+        </div>
+        <a href="#tipologias-6" data-target-id='tipologias-content-6'>
+          Fazenda urbana vertical
+        </a>
+      </div>
+    
+      <div class="tipologias-title tipologias-title-7">
+        <div class="tipologias-title-background">
+        </div>
+        <a href="#tipologias-7" data-target-id='tipologias-content-7'>
+          Hortas institucionais, quintas produtivos, hortas comunitárias
+        </a>
+      </div>
+    
+  </div>
+  <div class="tipologias-content">
+    <div class="tipologias-content-container" id="tipologias-content-default">
+      <div class="section-logo">
+        <img src="/static/images/icon-agro.svg" alt="svg" class="title-logo" />
+        <h3>
+          A combinação de dados quantitativos e qualitativos
+          preexistentes com o mapeamento de casos realizado
+          pelo estudo trouxe a identificação de diferentes tipos de
+          agricultura urbana e periurbana na RMSP.
+        </h3>
+      </div>
+    </div>
+    
+      <div class="tipologias-content-container" id="tipologias-content-1">
+        <div class="section-logo">
+          <img src="/static/images/icon-agro.svg" alt="svg" class="title-logo" />
+          <h3>
+            A combinação de dados quantitativos e qualitativos
+            preexistentes com o mapeamento de casos realizado
+            pelo estudo trouxe a identificação de diferentes tipos de
+            agricultura urbana e periurbana na RMSP.
+          </h3>
+        </div>
+        <div>
+          
+             <table>
+  
+  <tbody>
+    
+      <tr>
+        
+          <td>Função principal</td>
+        
+          <td>Predominantemente Comercial</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Localização</td>
+        
+          <td>Nas franjas ou fora do tecido urbano</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Inserção no mercado</td>
+        
+          <td>Alta</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Uso de tecnologias</td>
+        
+          <td>Alto</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Comercialização</td>
+        
+          <td>Majoritariamente circuitos longos</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Associativismo</td>
+        
+          <td>Maior grau - Associações, Sindicatos e Cooperativas</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Escala</td>
+        
+          <td>Média e grande propriedade</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Produção Principal</td>
+        
+          <td>Horticultura e Produção florestal</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Mão de obra principal</td>
+        
+          <td>Contratada &gt; Familiar</td>
+        
+      </tr>
+    
+  </tbody>
+</table>
+          
+        </div>
+        <div>
+          <p class="data-legend">
+            Consideramos o módulo fiscal de 5 ha para a RMSP, visto que representa o valor da maioria
+dos municípios que a compõem. As agriculturas de médio e grande porte estão em áreas
+superiores a 20 hectares (acima de 4 módulos fiscais); as agriculturas de pequeno porte
+estão em áreas de até 20 hectares (até 4 módulos fiscais), podendo ser um minifúndio, com
+área inferior 5 hectares (menor que 1 módulo fiscal).
+
+          </p>
+          <p class="data-legend">
+            Imagem: Leandro Cizotto, 2020
+          </p>
+        </div>
+      </div>
+    
+      <div class="tipologias-content-container" id="tipologias-content-2">
+        <div class="section-logo">
+          <img src="/static/images/icon-agro.svg" alt="svg" class="title-logo" />
+          <h3>
+            A combinação de dados quantitativos e qualitativos
+            preexistentes com o mapeamento de casos realizado
+            pelo estudo trouxe a identificação de diferentes tipos de
+            agricultura urbana e periurbana na RMSP.
+          </h3>
+        </div>
+        <div>
+          
+             <table>
+  
+  <tbody>
+    
+      <tr>
+        
+          <td>Função principal</td>
+        
+          <td>Predominantemente Comercial</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Localização</td>
+        
+          <td>Nas franjas ou fora do tecido urbano</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Inserção no mercado</td>
+        
+          <td>Alta</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Uso de tecnologias</td>
+        
+          <td>Alto</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Comercialização</td>
+        
+          <td>Majoritariamente circuitos longos</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Associativismo</td>
+        
+          <td>Maior grau - Associações, Sindicatos e Cooperativas</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Escala</td>
+        
+          <td>Minifúndio e pequena propriedade</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Produção Principal</td>
+        
+          <td>Horticultura</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Mão de obra principal</td>
+        
+          <td>Contratada &gt; Familiar</td>
+        
+      </tr>
+    
+  </tbody>
+</table>
+          
+        </div>
+        <div>
+          <p class="data-legend">
+            Consideramos o módulo fiscal de 5 ha para a RMSP, visto que representa o valor da maioria
+dos municípios que a compõem. As agriculturas de médio e grande porte estão em áreas
+superiores a 20 hectares (acima de 4 módulos fiscais); as agriculturas de pequeno porte
+estão em áreas de até 20 hectares (até 4 módulos fiscais), podendo ser um minifúndio, com
+área inferior 5 hectares (menor que 1 módulo fiscal).
+
+          </p>
+          <p class="data-legend">
+            Imagem: Tauan Manieri, 2020
+          </p>
+        </div>
+      </div>
+    
+      <div class="tipologias-content-container" id="tipologias-content-3">
+        <div class="section-logo">
+          <img src="/static/images/icon-agro.svg" alt="svg" class="title-logo" />
+          <h3>
+            A combinação de dados quantitativos e qualitativos
+            preexistentes com o mapeamento de casos realizado
+            pelo estudo trouxe a identificação de diferentes tipos de
+            agricultura urbana e periurbana na RMSP.
+          </h3>
+        </div>
+        <div>
+          
+             <table>
+  
+  <tbody>
+    
+      <tr>
+        
+          <td>Função principal</td>
+        
+          <td>Predominantemente Comercial</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Localização</td>
+        
+          <td>Nas franjas ou fora do tecido urbano</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Inserção no mercado</td>
+        
+          <td>Alta</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Uso de tecnologias</td>
+        
+          <td>Alto</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Comercialização</td>
+        
+          <td>Majoritariamente circuitos longos</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Associativismo</td>
+        
+          <td>Maior grau - Associações, Sindicatos e Cooperativas</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Escala</td>
+        
+          <td>Minifúndio e pequena propriedade</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Produção Principal</td>
+        
+          <td>Horticultura</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Mão de obra principal</td>
+        
+          <td>Familiar &gt; Contratada</td>
+        
+      </tr>
+    
+  </tbody>
+</table>
+          
+        </div>
+        <div>
+          <p class="data-legend">
+            Consideramos o módulo fiscal de 5 ha para a RMSP, visto que representa o valor da maioria
+dos municípios que a compõem. As agriculturas de médio e grande porte estão em áreas
+superiores a 20 hectares (acima de 4 módulos fiscais); as agriculturas de pequeno porte
+estão em áreas de até 20 hectares (até 4 módulos fiscais), podendo ser um minifúndio, com
+área inferior 5 hectares (menor que 1 módulo fiscal).
+
+          </p>
+          <p class="data-legend">
+            Imagem: Marcela Ferreira, 2017
+          </p>
+        </div>
+      </div>
+    
+      <div class="tipologias-content-container" id="tipologias-content-4">
+        <div class="section-logo">
+          <img src="/static/images/icon-agro.svg" alt="svg" class="title-logo" />
+          <h3>
+            A combinação de dados quantitativos e qualitativos
+            preexistentes com o mapeamento de casos realizado
+            pelo estudo trouxe a identificação de diferentes tipos de
+            agricultura urbana e periurbana na RMSP.
+          </h3>
+        </div>
+        <div>
+          
+             <table>
+  
+  <tbody>
+    
+      <tr>
+        
+          <td>Função principal</td>
+        
+          <td>Comercial e autoconsumo</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Localização</td>
+        
+          <td>Nas franjas ou fora do tecido urbano</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Inserção no mercado</td>
+        
+          <td>Média</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Uso de tecnologias</td>
+        
+          <td>Baixo</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Comercialização</td>
+        
+          <td>Circuitos curtos</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Associativismo</td>
+        
+          <td>Menor grau</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Escala</td>
+        
+          <td>Minifúndio e pequena propriedade</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Produção Principal</td>
+        
+          <td>Horticultura e Pecuária</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Mão de obra principal</td>
+        
+          <td>Familiar &gt; Contratada</td>
+        
+      </tr>
+    
+  </tbody>
+</table>
+          
+        </div>
+        <div>
+          <p class="data-legend">
+            Consideramos o módulo fiscal de 5 ha para a RMSP, visto que representa o valor da maioria
+dos municípios que a compõem. As agriculturas de médio e grande porte estão em áreas
+superiores a 20 hectares (acima de 4 módulos fiscais); as agriculturas de pequeno porte
+estão em áreas de até 20 hectares (até 4 módulos fiscais), podendo ser um minifúndio, com
+área inferior 5 hectares (menor que 1 módulo fiscal).
+
+          </p>
+          <p class="data-legend">
+            Imagem: Vitória Leão, 2018
+          </p>
+        </div>
+      </div>
+    
+      <div class="tipologias-content-container" id="tipologias-content-5">
+        <div class="section-logo">
+          <img src="/static/images/icon-agro.svg" alt="svg" class="title-logo" />
+          <h3>
+            A combinação de dados quantitativos e qualitativos
+            preexistentes com o mapeamento de casos realizado
+            pelo estudo trouxe a identificação de diferentes tipos de
+            agricultura urbana e periurbana na RMSP.
+          </h3>
+        </div>
+        <div>
+          
+             <table>
+  
+  <tbody>
+    
+      <tr>
+        
+          <td>Função principal</td>
+        
+          <td>Autoconsumo e comercial</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Localização</td>
+        
+          <td>Dentro do tecido urbano</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Inserção no mercado</td>
+        
+          <td>Média</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Uso de tecnologias</td>
+        
+          <td>Baixo</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Comercialização</td>
+        
+          <td>Circuitos curtos</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Associativismo</td>
+        
+          <td>Maior grau - Associações, ONGs</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Escala</td>
+        
+          <td>Lote urbana</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Produção Principal</td>
+        
+          <td>Horticultura e Pecuária de pequeno porte</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Mão de obra principal</td>
+        
+          <td>Familiar &gt; Contratada</td>
+        
+      </tr>
+    
+  </tbody>
+</table>
+          
+        </div>
+        <div>
+          <p class="data-legend">
+            Consideramos o módulo fiscal de 5 ha para a RMSP, visto que representa o valor da maioria
+dos municípios que a compõem. As agriculturas de médio e grande porte estão em áreas
+superiores a 20 hectares (acima de 4 módulos fiscais); as agriculturas de pequeno porte
+estão em áreas de até 20 hectares (até 4 módulos fiscais), podendo ser um minifúndio, com
+área inferior 5 hectares (menor que 1 módulo fiscal).
+
+          </p>
+          <p class="data-legend">
+            Imagem: Marcela Ferreira, 2020
+          </p>
+        </div>
+      </div>
+    
+      <div class="tipologias-content-container" id="tipologias-content-6">
+        <div class="section-logo">
+          <img src="/static/images/icon-agro.svg" alt="svg" class="title-logo" />
+          <h3>
+            A combinação de dados quantitativos e qualitativos
+            preexistentes com o mapeamento de casos realizado
+            pelo estudo trouxe a identificação de diferentes tipos de
+            agricultura urbana e periurbana na RMSP.
+          </h3>
+        </div>
+        <div>
+          
+             <table>
+  
+  <tbody>
+    
+      <tr>
+        
+          <td>Função principal</td>
+        
+          <td>Comercial</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Localização</td>
+        
+          <td>Dentro do tecido urbano</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Inserção no mercado</td>
+        
+          <td>Alta</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Uso de tecnologias</td>
+        
+          <td>Altíssimo</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Comercialização</td>
+        
+          <td>Circuitos curtos</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Associativismo</td>
+        
+          <td>Não aplicável</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Escala</td>
+        
+          <td>Lote urbano</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Produção Principal</td>
+        
+          <td>Horticultura</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Mão de obra principal</td>
+        
+          <td>Contratada</td>
+        
+      </tr>
+    
+  </tbody>
+</table>
+          
+        </div>
+        <div>
+          <p class="data-legend">
+            Consideramos o módulo fiscal de 5 ha para a RMSP, visto que representa o valor da maioria
+dos municípios que a compõem. As agriculturas de médio e grande porte estão em áreas
+superiores a 20 hectares (acima de 4 módulos fiscais); as agriculturas de pequeno porte
+estão em áreas de até 20 hectares (até 4 módulos fiscais), podendo ser um minifúndio, com
+área inferior 5 hectares (menor que 1 módulo fiscal).
+
+          </p>
+          <p class="data-legend">
+            Imagem: Rodrigo Giorgi, 2020
+          </p>
+        </div>
+      </div>
+    
+      <div class="tipologias-content-container" id="tipologias-content-7">
+        <div class="section-logo">
+          <img src="/static/images/icon-agro.svg" alt="svg" class="title-logo" />
+          <h3>
+            A combinação de dados quantitativos e qualitativos
+            preexistentes com o mapeamento de casos realizado
+            pelo estudo trouxe a identificação de diferentes tipos de
+            agricultura urbana e periurbana na RMSP.
+          </h3>
+        </div>
+        <div>
+          
+             <table>
+  
+  <tbody>
+    
+      <tr>
+        
+          <td>Função principal</td>
+        
+          <td>Autoconsumo, educativo, atividades comunitárias e ativismo</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Localização</td>
+        
+          <td>Dentro do tecido urbano</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Inserção no mercado</td>
+        
+          <td>Não inserida</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Uso de tecnologias</td>
+        
+          <td>Baixo</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Comercialização</td>
+        
+          <td>Não aplicável</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Associativismo</td>
+        
+          <td>Maior grau - Coletivos</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Escala</td>
+        
+          <td>Áreas públicas e privadas</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Produção Principal</td>
+        
+          <td>Horticultura</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Mão de obra principal</td>
+        
+          <td>Comunitária, institucional, contratada e voluntária</td>
+        
+      </tr>
+    
+  </tbody>
+</table>
+          
+        </div>
+        <div>
+          <p class="data-legend">
+            Consideramos o módulo fiscal de 5 ha para a RMSP, visto que representa o valor da maioria
+dos municípios que a compõem. As agriculturas de médio e grande porte estão em áreas
+superiores a 20 hectares (acima de 4 módulos fiscais); as agriculturas de pequeno porte
+estão em áreas de até 20 hectares (até 4 módulos fiscais), podendo ser um minifúndio, com
+área inferior 5 hectares (menor que 1 módulo fiscal).
+
+          </p>
+          <p class="data-legend">
+            Imagem: Vitória Leão, 2020
+          </p>
+        </div>
+      </div>
+    
+  </div>
+
+</section>
+    
+  
+    
+      
+<section class="start section-agricultura">
+  <div class="sticky"></div>
+
+
+
+
+  <div class="container section-two-blocks light">
+    <div class="section-content-block parallax-box ">
+      
+        
+  
+
+
+
+  
+    
+      
+
+        
+          <img
+            src="/static/images/icon-study.svg"
+            alt="&amp;iacute;cone de estudo"
+            
+              class="title-logo"
+            
+            
+            
+          />
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <h2>Olhando mais de perto: a viabilidade econômica de 4 casos empíricos
+</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            Resultados da modelagem econômico-financeira dos casos e análise dos principais gargalos identificados.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+      
+    </div>
+    <div class="section-content-block parallax-box ignore">
+      
+          
+  
+
+
+
+  
+    
+  
+
+
+        
+    </div>
+  </div>
+
+
+    
+  
+    
+      
+
+
+
+  <div class="container section-two-blocks light">
+    <div class="section-content-block parallax-box ">
+      
+        
+  
+
+
+
+  
+    
+      
+
+        
+          <h3>Caso 1 <br />Agricultura comercial de médio porte, convencional
+</h3>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Localização:</strong> área periurbana
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Área total:</strong> 40 hectares
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Área produtiva:</strong> 10,8 hectares
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Relação com a terra:</strong> propriedade
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Tempo em atividade:</strong> mais de 40 anos
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Mão de obra:</strong> 56 funcionários
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Manejo:</strong> convencional - campo e hidroponia
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Produtos:</strong> 11 espécies, principalmente hortaliças folhosas (alface, rúcula e agrião)
+e brássicas (couve, acelga e repolho).
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Acesso ao mercado:</strong> CEAGESP e Varejo
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+      
+    </div>
+    <div class="section-content-block parallax-box ">
+      
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p>
+            <strong>ANÁLISE: Lucro não remunera altos investimentos. Estabelecimento está vulnerável á pressão
+pela venda da terra.</strong>
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            Com alto uso de tecnologia, mão de obra e insumos, o estabelecimento obtém eficiência.
+Apesar de gerar lucro operacional positivo, este não supera os custos
+de depreciação dos equipamentos e as crescentes despesas com insumos.
+Inserido em circuitos longos de comercialização, os preços de venda dos produtos do estabelecimento são baixos.
+Produtores que se enquadram em cenários semelhantes, além de pouco resilientes a eventos climáticos e
+choques de demanda, também estão vulneráveis à expansão urbana.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          
+             <table>
+  
+    <thead>
+      <tr>
+        
+          <th>Resultado operacional</th>
+        
+          <th>R$/un</th>
+        
+      </tr>
+    </thead>
+  
+  <tbody>
+    
+      <tr>
+        
+          <td>Receita líquida</td>
+        
+          <td>0,74</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Custos de produção</td>
+        
+          <td>-0,56</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Lucro Bruto</td>
+        
+          <td>0,19</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Comercial e Gestão</td>
+        
+          <td>-0,16</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>EBITIDA</td>
+        
+          <td>0,03</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Depreciação</td>
+        
+          <td>-0,06</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Lucro operacional</td>
+        
+          <td>-0,03</td>
+        
+      </tr>
+    
+  </tbody>
+</table>
+          
+        
+
+
+      
+    
+  
+
+
+        
+    </div>
+  </div>
+
+
+    
+  
+    
+      
+
+
+
+  <div class="container section-two-blocks light">
+    <div class="section-content-block parallax-box ">
+      
+        
+  
+
+
+
+  
+    
+      
+
+        
+          <h3>Caso 2 <br />Agricultura comercial familiar, orgânica
+</h3>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Localização:</strong> área periurbana
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Área total:</strong> 8,5 hectares
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Área produtiva:</strong> 0,25 hectares
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Relação com a terra:</strong> arrendamento
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Tempo em atividade:</strong> 1 ano
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Mão de obra:</strong> familiar, casal de agricultores
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Manejo:</strong> orgânico (em transição) - campo
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Produtos:</strong> 17 espécies, principalmente hortaliças folhosas (alface, rúcula, escarola, espinafre e
+agrião), brássicas (couve, couve-flor, brócolis e repolhos) e raízes (cenoura, beterraba e rabanete)
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Acesso ao mercado:</strong> feiras de produtores
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+      
+    </div>
+    <div class="section-content-block parallax-box ">
+      
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p>
+            <strong>ANÁLISE: Orgânicos na balança: período inicial desafiador com altos custos de
+insumos, investimentos e perdas.</strong>
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            O estabelecimento precisará de 3 a 5 anos de manejo agroecológico até que o solo volte a
+ser fértil e passe a demandar menor volume de insumos orgânicos. Enquanto isso, o proprietário já
+comercializa seus produtos com o valor agregado dos orgânicos, graças às relações de confiança
+estabelecidas no circuito curto no qual está inserido. Mesmo ancorado em prêmio de preço elevado,
+o produtor ainda não obtém retorno sobre o capital investido. O baixo nível dos processos de gestão adotados,
+decorrente da pouca experiência dos agricultores no ramo, bem como o alto volume de investimentos em infraestrutura
+feitos nessa fase inicial do negócio, colocam-se como pontos críticos de atenção na conquista da viabilidade financeira.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          
+             <table>
+  
+    <thead>
+      <tr>
+        
+          <th>Resultado operacional</th>
+        
+          <th>R$/un</th>
+        
+      </tr>
+    </thead>
+  
+  <tbody>
+    
+      <tr>
+        
+          <td>Receita líquida</td>
+        
+          <td>5,27</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Custos de produção</td>
+        
+          <td>-2,66</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Lucro Bruto</td>
+        
+          <td>2,62</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Comercial e Gestão</td>
+        
+          <td>-3,72</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>EBITIDA</td>
+        
+          <td>-1,11</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Depreciação</td>
+        
+          <td>-0,37</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Lucro operacional</td>
+        
+          <td>-1,48</td>
+        
+      </tr>
+    
+  </tbody>
+</table>
+          
+        
+
+
+      
+    
+  
+
+
+        
+    </div>
+  </div>
+
+
+    
+  
+    
+      
+
+
+
+  <div class="container section-two-blocks light">
+    <div class="section-content-block parallax-box ">
+      
+        
+  
+
+
+
+  
+    
+      
+
+        
+          <h3>Caso 3 <br/ >Agricultura multifuncional, orgânica
+</h3>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Localização:</strong> área periurbana
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Área total:</strong> 0,75 hectares
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Área produtiva:</strong> 0,4 hectares
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Relação com a terra:</strong> assentamento
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Tempo em atividade:</strong> 20 anos
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Mão de obra:</strong> familiar, casal de agricultores
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Manejo:</strong> orgânico - campo
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Produtos:</strong> 47 espécies, principalmente hortaliças folhosas (como alfaces,
+rúcula, entre outras), couve e raízes (cenoura e beterraba)
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Acesso ao mercado:</strong> feiras, compras públicas. A produção também é voltada para o autoconsumo.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+      
+    </div>
+    <div class="section-content-block parallax-box ">
+      
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p>
+            <strong>ANÁLISE: Viabilidade econômica ancorada em prêmio de preço dos circuitos curtos de orgânicos
+e no acesso à terra.</strong>
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            Em ambos os casos 3 e 4, boa parte dos custos de produção e despesas comerciais e administrativas corresponde
+à remuneração do agricultor, considerada satisfatória – ainda que a margem de lucro seja baixa.
+A infraestrutura é básica ou depreciada. A viabilidade desses dois modelos apoia-se em dois diferenciais:
+os preços altos, por serem produtos orgânicos e pela venda ser realizada diretamente ao consumidor ou via
+compras públicas; e o fato dos agricultores não aportaram recursos financeiros para acessar a terra, que, por
+isso, não entra na conta dos custos de produção.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          
+             <table>
+  
+    <thead>
+      <tr>
+        
+          <th>Resultado operacional</th>
+        
+          <th>R$/un</th>
+        
+      </tr>
+    </thead>
+  
+  <tbody>
+    
+      <tr>
+        
+          <td>Receita líquida</td>
+        
+          <td>3,46</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Custos de produção</td>
+        
+          <td>-1,78</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Lucro Bruto</td>
+        
+          <td>1,68</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Comercial e Gestão</td>
+        
+          <td>-1,49</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>EBITIDA</td>
+        
+          <td>0,19</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Depreciação</td>
+        
+          <td>-0,06</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Lucro operacional</td>
+        
+          <td>0,13</td>
+        
+      </tr>
+    
+  </tbody>
+</table>
+          
+        
+
+
+      
+    
+  
+
+
+        
+    </div>
+  </div>
+
+
+    
+  
+    
+      
+
+
+
+  <div class="container section-two-blocks light">
+    <div class="section-content-block parallax-box ">
+      
+        
+  
+
+
+
+  
+    
+      
+
+        
+          <h3>Caso 4 <br /> Agricultura urbana multifuncional, orgânica
+</h3>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Localização:</strong> área urbana, sob linhões de energia
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Área total:</strong> 0,6 hectares
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Área produtiva:</strong> 0,4 hectares
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Relação com a terra:</strong> comodato
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Tempo em atividade:</strong> 10 anos
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Mão de obra:</strong> familiar, casal de agricultores
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Manejo:</strong> orgânico - campo
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Produtos:</strong> 50 espécies, principalmente hortaliças
+folhosas (alface, rúcula e escarola), brássicas (couve e brócolis), abóboras, beterraba e banana.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Acesso ao mercado:</strong> feiras, restaurantes, institutos. A produção também é voltada para o autoconsumo.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+      
+    </div>
+    <div class="section-content-block parallax-box ">
+      
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p>
+            <strong>ANÁLISE: Viabilidade econômica ancorada em prêmio de preço dos circuitos curtos de orgânicos
+e no acesso à terra.</strong>
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            Em ambos os casos 3 e 4, boa parte dos custos de produção e despesas comerciais e administrativas corresponde
+à remuneração do agricultor, considerada satisfatória – ainda que a margem de lucro seja baixa.
+A infraestrutura é básica ou depreciada. A viabilidade desses dois modelos apoia-se em dois diferenciais:
+os preços altos, por serem produtos orgânicos e pela venda ser realizada diretamente ao consumidor ou via
+compras públicas; e o fato dos agricultores não aportaram recursos financeiros para acessar a terra, que, por
+isso, não entra na conta dos custos de produção.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          
+             <table>
+  
+    <thead>
+      <tr>
+        
+          <th>Resultado operacional</th>
+        
+          <th>R$/un</th>
+        
+      </tr>
+    </thead>
+  
+  <tbody>
+    
+      <tr>
+        
+          <td>Receita líquida</td>
+        
+          <td>3,09</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Custos de produção</td>
+        
+          <td>-1,81</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Lucro Bruto</td>
+        
+          <td>1,29</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Comercial e Gestão</td>
+        
+          <td>-1,13</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>EBITIDA</td>
+        
+          <td>0,16</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Depreciação</td>
+        
+          <td>-0,04</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Lucro operacional</td>
+        
+          <td>0,12</td>
+        
+      </tr>
+    
+  </tbody>
+</table>
+          
+        
+
+
+      
+    
+  
+
+
+        
+    </div>
+  </div>
+
+
+</section>
+
+    
+  
+    
+      
+<section>
+  <div class="container section-logo-two-blocks">
+    
+      <div class="section-logo">
+        <div>
+          
+            <img src="/static/images/icon-price.svg" alt="&amp;iacute;cone de preço" class="title-logo" />
+          
+        </div>
+        <div>
+          
+        </div>
+      </div>
+    
+
+    <div class="section-content">
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <h2>Preços e canais comerciais</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            A dinâmica comercial dos casos aponta para duas realidades opostas: (i) a de uma
+produção convencional em larga escala e direcionada a um mercado altamente competitivo;
+e (ii) a de uma produção orgânica orientada a um público mais restrito, local e/ou de
+menor escala. Entre os dois extremos, há ainda em um dos casos a produção de pequena escala,
+que reunida por meio de uma cooperativa, consegue ser comercializada em programas de compras públicas.
+No diagrama, vemos os preços praticados nas cadeias de orgânicos e convencionais, e a posição
+em que cada caso se insere:
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <img
+            src="/static/images/graph-price.svg"
+            alt="Gráfico de preços por canais"
+            
+            
+            
+          />
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+    
+  
+    
+      
+<section>
+  <div class="container section-logo-two-blocks">
+    
+      <div class="section-logo">
+        <div>
+          
+        </div>
+        <div>
+          
+            <img src="/static/images/icon-model.svg" alt="&amp;iacute;cone de modelo" class="title-logo" />
+          
+        </div>
+      </div>
+    
+
+    <div class="section-content">
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          
+             <table>
+  
+    <thead>
+      <tr>
+        
+          <th>Premissas</th>
+        
+          <th>Modelo 1 Agricultura comercial de pequeno porte, orgânico</th>
+        
+          <th>Modelo 2 Agricultura urbana multifuncional, orgânico</th>
+        
+      </tr>
+    </thead>
+  
+  <tbody>
+    
+      <tr>
+        
+          <td>Localização</td>
+        
+          <td>Periurbana</td>
+        
+          <td>Urbana</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Área total</td>
+        
+          <td>4,5 hectares</td>
+        
+          <td>0,45 hectares</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Comercialização</td>
+        
+          <td>Via distribuidor de produtos orgânicos</td>
+        
+          <td>Direto com o consumidor final</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Mão de obra</td>
+        
+          <td>Equipe de campo contratada</td>
+        
+          <td>Operação realizada pelo próprio produtor</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Insumos</td>
+        
+          <td>Aplicação de insumos reduzida ao longo do tempo dada a evolução em fertilidade do solo</td>
+        
+          <td>Ponto de partida é solo urbano com elevado grau de modificação</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Logística</td>
+        
+          <td>Despesa logística com maior distância potencial</td>
+        
+          <td>Despesa logística baixa, com venda próxima a área de produção</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Gestão</td>
+        
+          <td>Despesas de gestão completas (~ 90 mil/ano)</td>
+        
+          <td>Despesas de gestão moderada (~ 23 mil/ano)</td>
+        
+      </tr>
+    
+      <tr>
+        
+          <td>Investimentos</td>
+        
+          <td>Aproximadamente R$ 220 mil</td>
+        
+          <td>Aproximadamente R$ 45 mil</td>
+        
+      </tr>
+    
+  </tbody>
+</table>
+          
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <h2>Produzir alimentos na metrópole é viável?</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            Com base nos estudos de casos, o estudo simulou a viabilidade econômica e o potencial
+de unidades produtivas modelo nos contextos periurbano e urbano, com o objetivo de
+aprofundar a investigação sobre a <strong>viabilidade operacional e econômica da AUP na RMSP
+praticada com manejo orgânico.</strong>
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+    
+  
+    
+      
+<section>
+  <div class="container section-logo-two-blocks">
+    
+
+    <div class="section-content">
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <h2>A simulação dos modelos hipotéticos confirmou que ...</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>... a agricultura comercial de pequeno porte orgânica</strong> pode ser um investimento
+atraente, com potencial de oferecer retorno sustentável para comercialização em escala,
+desde que supere o período inicial de altos investimentos e fluxo de caixa negativo e que não
+esteja submetido ao valor pago pelos intermediários que atuam hoje na cadeia de orgânicos.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p>
+            <strong>.... a agricultura urbana multifuncional orgânica</strong> tem potencial para obter boa
+remuneração pelo trabalho, vendendo próximo ao consumidor. Formas de comercialização com demanda
+regular (compras institucionais e atuação conjunta com bons agentes intermediários) ajudam a diminuir
+o tempo despendido com a atividade de venda, que pode ser aplicado na atividade em si.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+    
+  
+    
+      <section>
+  <div class="container section-logo-two-blocks">
+
+    
+    <div class="section-content">
+      <div class="section-content-block">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <h2>Fatores chave para a viabilidade da produção local</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <h3>Circuitos curtos de comercialização
+</h3>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            A agricultura comercial de pequeno porte modelada é viável, desde que
+consiga vender sua produção a um valor no mínimo 90% maior do que aquele praticado por
+distribuidores de produtos orgânicos. através de uma cadeia de comercialização mais curta.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p>
+            Nesse cenário, no entanto, o retorno obtido com a venda da terra ainda é maior do que aquele
+obtido com o negócio. Para que valor do negócio seja superior ao valor da terra na região,
+esse preço deve ser 100% maior, equivalente ao preço pago pelo varejo — sendo que o preço de
+equilíbrio pode ser maior ou menor, dependendo da eficiência gerencial e técnica, bem como da
+otimização de custos. Em suma, a agricultura comercial de pequeno porte modelada é viável através
+de uma cadeia de comercialização mais curta.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+    </div>
+    <div class="section-content extra-line">
+      
+        
+  
+
+
+
+  
+    
+      
+
+        
+          <h4>Modelo 1 - Agricultura comercial de pequeno
+porte, orgânico: Preço do produto e da terra
+</h4>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <img
+            src="/static/images/graph-viabilidade.svg"
+            alt="Gráfico de viabilidade"
+            
+              class="width-70"
+            
+            
+            
+          />
+        
+
+
+      
+    
+  
+
+
+      
+    </div>
+  </div>
+</section>
+    
+  
+    
+      <section>
+  <div class="container section-logo-two-blocks">
+
+    
+    <div class="section-content">
+      <div class="section-content-block">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <h2>O tempo da transição orgânica</h2>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            O primeiro ano de operação da agricultura comercial de pequeno porte modelada é desafiador,
+envolvendo a realização de investimentos expressivos, operação abaixo da escala e da performance ideal.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+      <div class="section-content-block ">
+        
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p>
+            Ao longo dos anos iniciais de transição orgânica, os resultados financeiros gradativamente melhoram
+com o ganho de experiência, formação e fertilização do solo, redução de custos e aumento de produtividade.
+A partir do quinto ano, quando a operação está em performance e escala ideais, há retorno do investimento realizado.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+      </div>
+    </div>
+    <div class="section-content extra-line">
+      
+        
+  
+
+
+
+  
+    
+      
+
+        
+          <h4>Modelo 1 - Agricultura comercial de pequeno porte,
+orgânico: Dinâmica da unidade produtiva ao longo do tempo
+</h4>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <div class="clearfix width-70">
+  <div id='chart-modelos'></div>
+</div>
+
+        
+
+
+      
+    
+  
+
+
+      
+    </div>
+  </div>
+</section>
+    
+  
+    
+      
+<section class="start section-potencial">
+  <div class="sticky"></div>
+
+
+
+
+  <div class="container section-two-blocks dark">
+    <div class="section-content-block parallax-box ">
+      
+        
+  
+
+
+
+  
+    
+      
+
+        
+          <img
+            src="/static/images/icon-potential.svg"
+            alt="&amp;iacute;cone de ideia"
+            
+              class="title-logo"
+            
+            
+            
+          />
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <h2>Qual o potencial da agricultura urbana e periurbana na metrópole de São Paulo?
+</h2>
+        
+
+
+      
+    
+  
+
+
+      
+    </div>
+    <div class="section-content-block parallax-box ">
+      
+          
+  
+
+
+
+  
+    
+      
+
+        
+          <p>
+            A agricultura praticada nas áreas periurbanas da metrópole tem o potencial de abastecer com legumes e verduras
+<span class="text-big">20 milhões de pessoas anualmente</span> e gerar
+<span class="text-medium">180 mil empregos.</span> 
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            A simulação considera uma área cultivada de 60.000 hectares por estabelecimentos modelo periurbanos. 
+Essa expansão é possível nas atuais áreas de
+pastagem e não implicaria em avanço nas áreas florestais e de preservação e conservação ambiental.
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+        
+    </div>
+  </div>
+
+
+    
+  
+    
+      
+
+
+
+  <div class="container section-two-blocks dark">
+    <div class="section-content-block parallax-box ">
+      
+        
+  
+
+
+
+  
+    
+      
+
+        
+          <p>
+            Já a produção de alimentos em áreas urbanas tem o potencial de abastecer com legumes e verduras
+<span class="text-big">80 mil pessoas</span> e gerar
+<span class="text-medium">1 mil empregos.</span> 
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            A simulação considera uma área cultivada de 200 hectares por estabelecimentos modelo urbanos. 
+Essa área é o equivalente à área de terrenos vagos
+no distrito de Sapopemba, no município de São Paulo. O número de famílias que poderiam ser beneficiadas,
+24 mil, é 1,5x o número de famílias beneficiárias do Bolsa Família no distrito.
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <strong>Como é a produção local de alimentos em outras metrópoles do país?</strong>
+
+          </p>
+        
+
+
+      
+    
+  
+    
+      
+
+        
+          <p>
+            <a target="_blank" href="https://www.escolhas.org/wp-content/uploads/2020/10/PB_04_A-producao_de_alimentos_nas_metropoles_brasileiras_out2020.pdf">Veja aqui</a>
+
+          </p>
+        
+
+
+      
+    
+  
+
+
+      
+    </div>
+    <div class="section-content-block parallax-box ignore">
+      
+          
+  
+
+
+
+  
+    
+  
+
+
+        
+    </div>
+  </div>
+
+
+</section>
+
+    
+  
+    
+      
+<!-- Mapa Sintese -->
+<section class="section map" id="sintese">
+  <div class="controls">
+    <div class="title">
+      <h1>Mapa S&iacute;ntese</h1>
+      <p class="instructions">
+        Clique para ligar e desligar as categorias abaixo
+      </p>
+    </div>
+    <div class="layer-controls">
+      <div class="clearfix">
+        <ul class="map-controls">
+          <li class="map-control-toggle">
+            <a href="#" id="sintese-eq-abastecimento"> <span class="map-toggle-icon-color"></span>Abastecimento p&uacute;blico</a>
+            <ul class="map-layer-legend">
+              <li><span class="map-toggle-icon-color bg_restaurante_popular"></span>Restaurante Popular / Bom Prato</li>
+              <li><span class="map-toggle-icon-color bg_feiras"></span>Feiras</li>
+              <li><span class="map-toggle-icon-color bg_banco_alimentos"></span>Banco de Alimentos</li>
+              <li><span class="map-toggle-icon-color bg_cozinha_comunitaria"></span>Cozinha Comunitária</li>
+              <li><span class="map-toggle-icon-color bg_mercado_municipal"></span>Mercados Municipais</li>
+              <li><span class="map-toggle-icon-color bg_sacolao"></span>Varej&atilde;o / Sacol&atilde;o</li>
+            </ul>
+          </li>
+          <li class="map-control-toggle">
+            <a href="#" id="sintese-escola-publica"> <span class="map-toggle-icon-color"></span>Escolas p&uacute;blicas</a>
+            <ul class="map-layer-legend">
+              <li><span class="map-toggle-icon-color bg_escolas"></span>Ensino infantil / fundamental</li>
+            </ul>
+          </li>
+          <li class="map-control-toggle">
+            <a href="#" id="sintese-hex-misto-innat"> <span class="map-toggle-icon-color"></span>Estabelecimentos in natura + misto</a>
+            <ul class="map-layer-progress bg_in_natura">
+              <li><span class="progress-color progress-20"></span>&lt;10</li>
+              <li><span class="progress-color progress-40"></span>25</li>
+              <li><span class="progress-color progress-60"></span>50</li>
+              <li><span class="progress-color progress-80"></span>100</li>
+              <li><span class="progress-color progress-100"></span>&gt;100</li>
+            </ul>
+          </li>
+          <li class="map-control-toggle">
+            <a href="#" id="sintese-hex-ultra"> <span class="map-toggle-icon-color"></span>Estabelecimentos ultraprocessados</a>
+            <ul class="map-layer-progress bg_ultraprocessados">
+              <li><span class="progress-color progress-20"></span>&lt;10</li>
+              <li><span class="progress-color progress-40"></span>25</li>
+              <li><span class="progress-color progress-60"></span>50</li>
+              <li><span class="progress-color progress-80"></span>100</li>
+              <li><span class="progress-color progress-100"></span>&gt;100</li>
+            </ul>
+          </li>
+          <li class="map-control-toggle">
+            <a href="#" id="sintese-estabelecimentos-agro"> <span class="map-toggle-icon-color"></span>Estabelecimentos</a>
+            <ul class="map-layer-legend">
+              <li><span class="map-toggle-icon-color bg_agricultura_agropecuarios"></span>Agropecu&aacute;rios</li>
+            </ul>
+          </li>
+          <li class="map-control-toggle">
+            <a href="#" id="sintese-producao-vbp"> <span class="map-toggle-icon-color"></span>Participa&ccedil;&atilde;o dos munic&iacute;pios no VBP</a>
+            <ul class="map-layer-progress bg_participacao">
+              <li><span class="progress-color progress-20"></span>1%</li>
+              <li><span class="progress-color progress-40"></span>5%</li>
+              <li><span class="progress-color progress-60"></span>10%</li>
+              <li><span class="progress-color progress-80"></span>30%</li>
+              <li><span class="progress-color progress-100"></span>35%</li>
+            </ul>
+          </li>
+          <li class="map-control-toggle">
+            <a href="#" id="sintese-areas-ambientais"> <span class="map-toggle-icon-color"></span>&Aacute;reas ambientais</a>
+            <ul class="map-layer-legend">
+              <li><span class="map-toggle-icon-color square bg_agricultura_integral"></span>Unidade de Conserva&ccedil;&atilde;o de Prote&ccedil;&atilde;o Integral</li>
+              <li><span class="map-toggle-icon-color square bg_agricultura_sustentavel"></span>Unidade de Conserva&ccedil;&atilde;o de Uso Sustent&aacute;vel</li>
+              <li><span class="map-toggle-icon-color square bg_agricultura_mananciais"></span>&Aacute;reas de Prote&ccedil;&atilde;o e Recupera&ccedil;&atilde;o de Mananciais</li>
+              <li><span class="map-toggle-icon-color square bg_agricultura_verde"></span>&Aacute;reas verdes</li>
+            </ul>
+          </li>
+          <li class="map-control-toggle">
+            <a href="#" id="sintese-ipvs"> <span class="map-toggle-icon-color"></span>&Iacute;ndice Paulista de Vulnerabilidade Social</a>
+            <ul class="map-layer-legend">
+              <li><span class="map-toggle-icon-color square bg_baixissima"></span>Baix&iacute;ssima</li>
+              <li><span class="map-toggle-icon-color square bg_muito_baixa"></span>Muito baixa</li>
+              <li><span class="map-toggle-icon-color square bg_baixa"></span>Baixa</li>
+              <li><span class="map-toggle-icon-color square bg_media"></span>M&eacute;dia</li>
+              <li><span class="map-toggle-icon-color square bg_alta"></span>Alta</li>
+              <li><span class="map-toggle-icon-color square bg_muito_alta"></span>Muito alta</li>
+            </ul>
+          </li>
+          <li class="map-control-toggle">
+            <a href="#" id="sintese-uso-mapbiomas"> <span class="map-toggle-icon-color"></span>Uso e Cobertura do Solo - MapBiomas</a>
+            <ul class="map-layer-legend">
+              <li><span class="map-toggle-icon-color square bg_formacao_florestal"></span>Forma&ccedil;&atilde;o Florestal</li>
+              <li><span class="map-toggle-icon-color square bg_floresta_plantada"></span>Floresta Plantada</li>
+              <li><span class="map-toggle-icon-color square bg_pastagem"></span>Pastagem</li>
+              <li><span class="map-toggle-icon-color square bg_cultura_semi_perene"></span>Agricultura</li>
+              <li><span class="map-toggle-icon-color square bg_mosaico_agri"></span>Mosaico de Agricultura e Pastagem</li>
+              <li><span class="map-toggle-icon-color square bg_infraestrutura_urb"></span>Infraestrutura urbana</li>
+              <li><span class="map-toggle-icon-color square bg_outra_area_nao_veg"></span>Outra &aacute;rea n&atilde;o vegetada</li>
+              <li><span class="map-toggle-icon-color square bg_afloramento_rochoso"></span>Afloramento rochoso</li>
+              <li><span class="map-toggle-icon-color square bg_mineracao"></span>Minera&ccedil;&atilde;o</li>
+            </ul>
+          </li>
+          <li class="map-control-toggle">
+            <a href="#" id="sintese-dens-pop"> <span class="map-toggle-icon-color"></span>Densidade populacional (habitante/ha)</a>
+            <ul class="map-layer-legend">
+              <li><span class="map-toggle-icon-color square bg_menor_50"></span>&lt;50</li>
+              <li><span class="map-toggle-icon-color square bg_50_100"></span>50 - 100</li>
+              <li><span class="map-toggle-icon-color square bg_100_150"></span>100 - 150</li>
+              <li><span class="map-toggle-icon-color square bg_150_200"></span>150 - 200</li>
+              <li><span class="map-toggle-icon-color square bg_200_250"></span>200 - 250</li>
+              <li><span class="map-toggle-icon-color square bg_maior_250"></span>&gt;250</li>
+            </ul>
+          </li>
+          <li class="map-control-toggle no-margin"><span class="map-toggle-icon-color bg_rmsp"></span>Limite RMSP</li>
+          <li class="map-control-toggle no-margin"><span class="map-toggle-icon-color bg_municipios"></span>Limite munic&iacute;pios</li>
+          <li class="map-control-toggle no-margin"><span class="map-toggle-icon-color bg_area_urbana"></span>&Aacute;rea urbana</li>
+        </ul>
+        <div class="help-button open-modal">
+          <a href="#ajuda" data-target="sintese-map-definitions"><img src="/static/images/icon-help.svg" alt="Ajuda" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="map-container">
+    <div class="map-display" id="sintese-map-container"></div>
+    <div class="map-definitions" id="sintese-map-definitions">
+      <nav class="close-nav">
+        <a href="#close" data-target="sintese-map-definitions"><img src="/static/images/icon-close.svg" alt="Fechar" /></a>
+      </nav>
+      <div class="map-definitions-content">
+        <div class="map-definitions-container sources">
+          <h1>Fontes</h1>
+<ul>
+  <li><span>CEAGESP.</span> Frutas, Legumes e Verduras comercializados no ETSP, segundo munic&iacute;pio de origem Brasil, 2019.</li>
+  <li><span>Centro de Estudos da Metr&oacute;pole (CEM).</span> &Aacute;reas verdes, Parques e &Aacute;reas de Prote&ccedil;&otilde; Ambiental da RMSP, 2018. Dispon&iacute;vel em <a target="_blank" href="http://centrodametropole.fflch.usp.br">http://centrodametropole.fflch.usp.br</a></li>
+  <li><span>Centro de Estudos da Metr&oacute;pole (CEM).</span> Divis&atilde;o territorial, 2013. Dispon&iacute;vel em <a target="_blank" href="http://centrodametropole.fflch.usp.br">http://centrodametropole.fflch.usp.br</a></li>
+  <li><span>Centro de Estudos da Metr&oacute;pole (CEM).</span> Escolas da RMSP, 2016. Dispon&iacute;vel em <a target="_blank" href="http://centrodametropole.fflch.usp.br">http://centrodametropole.fflch.usp.br</a></li>
+  <li><span>Funda&ccedil;&atilde;o Sistema Estadual de An&aacute;lise de Dados (SEADE).</span> &Iacute;ndice Paulista de Vulnerabilidade Social, 2010. Dispon&iacute;vel em <a target="_blank" href="http://seade.gov.br">http://seade.gov.br</a></li>
+  <li><span>Fundação Florestal.</span> Áreas ambientais, 2018. Dispon&iacute;vel em <a target="_blank" href="http://www.fflorestal.sp.gov.br</a></li>
+  <li><span>Instituto Brasileiro de Geografia e Estat&iacute;stica (IBGE).</span> &Aacute;reas urbanizadas do Brasil, 2015. Dispon&iacute;vel em <a target="_blank" href="http://ibge.gov.br">http://ibge.gov.br</a></li>
+  <li><span>Instituto Brasileiro de Geografia e Estat&iacute;stica (IBGE).</span> Censo agropecu&aacute;rio, 2017. Dispon&iacute;vel em <a target="_blank" href="http://ibge.gov.br">http://ibge.gov.br</a></li>
+  <li><span>Instituto Brasileiro de Geografia e Estat&iacute;stica (IBGE).</span> Censo demogr&aacute;fico, 2010. Dispon&iacute;vel em <a target="_blank" href="http://ibge.gov.br">http://ibge.gov.br</a></li>
+  <li><span>Instituto Brasileiro de Geografia e Estat&iacute;stica (IBGE).</span> Limites administrativos, 2017. Dispon&iacute;vel em <a target="_blank" href="http://ibge.gov.br">http://ibge.gov.br</a></li>
+  <li><span>Instituto Florestal.</span> Áreas ambientais, 2018. Dispon&iacute;vel em <a target="_blank" href="http://www.iflorestal.sp.gov.br</a></li>
+  <li><span>Minist&eacute;rio do Meio Ambiente.</span> Unidades de Conserva&ccedil;&otilde;, 2012. Dispon&iacute;vel em <a target="_blank" href="http://mapas.mma.gov.br">http://mapas.mma.gov.br</a></li>
+  <li><span>Minist&eacute;rio da Economia.</span> Relaç&atilde;o Anual de Informa&ccedil;&otilde;es Sociais, 2019. Dispon&iacute;vel em <a target="_blank" href="http://rais.gov.br">http://rais.gov.br</a></li>
+  <li><span>Projeto Mapbiomas.</span> Coleção da S&eacute;rie Anual de Mapas de Cobertura e Uso do Solo do Brasil, 2019. Dispon&iacute;vel em <a target="_blank" href="http://mapbiomas.org">http://mapbiomas.org</a></li>
+  <li><span>Secretaria da Infraestrutura e Meio Ambiente do Estado de S&atilde;o Paulo (SIMA).</span> &Aacute;reas ambientais, 2018. Dispon&iacute;vel em <a target="_blank" href="http://datageo.ambiente.sp.gov.br">http://datageo.ambiente.sp.gov.br</a></li>
+  <li><span>Secretaria da Agricultura e Abastecimento do Estado de S&atilde;o Paulo.</span> Levantamento Censit&aacute;rio das Unidades de Produ&ccedil;&atilde;o Agropecu&aacute;ria, 2016-2017.</li>
+  <li><span>Secretaria Municipal de Desenvolvimento, Trabalho e Empreendedorismo.</span> Abastecimento, 2018. Dispon&iacute;vel em <a target="_blank" href="http://geosampa.prefeitura.sp.gov.br">http://geosampa.prefeitura.sp.gov.br</a></li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+  
+    
+      
+<!-- Metodologia -->
+<section class="section-metodologia clearfix" id="metodologia">
+  <div class="container">
+    <div class="title">
+      <h2>Metodologia</h2>
+    </div>
+    <div class="content">
+      <div class="column">
+        <p>
+          Para construir uma abordagem exploratória e panorâmica
+          do sistema alimentar, adotamos como referência a
+          metodologia proposta pela Organização das Nações
+          Unidas para a Alimentação e Agricultura (FAO) e Resource
+          Centres on Urban Agriculture & Food Security (RUAF)
+          para mapeamento de sistemas alimentares urbanos a
+          partir de uma abordagem territorial, denominada “City-
+          Region Food System Scan” (FAO; RUAF, 2018). Trata-se de
+          um guia que orienta o levantamento de informações de
+          diferentes subsistemas que compõem o sistema alimentar
+          de uma determinada “cidade-região”, isto é, um recorte
+          territorial que compreende uma cidade e regiões vizinhas,
+          conectadas como um único sistema. A metodologia
+          pressupõe a adoção preliminar de limites geográficos de
+          uma cidade-região e a exploração dos dados e informações
+          disponíveis neste recorte. Os critérios para definição dos
+          limites podem variar conforme o caso, podendo considerar
+          limites administrativos, unidades regionais, regiões
+          produtoras de alimentos e a disponibilidade de dados, por
+          exemplo. No limite, estão integradas ao sistema alimentar
+          de uma determinada cidade ou metrópole todas regiões
+          provedoras de alimentos para aquele território, incluindo
+          também áreas distantes.
+        </p>
+      </div>
+      <div class="column">
+        <p>
+          Assim, a delimitação de uma cidade-região serve ao
+          propósito de estabelecer uma unidade de análise. Tendo
+          em vista o objetivo de caracterização do sistema, foi
+          empregado como método a análise descritiva de dados,
+          além de geoprocessamento para tratamento dos dados
+          selecionados. Sempre que pertinente, procuramos
+          espacializar os dados apresentados, de forma a permitir
+          uma compreensão das características territoriais do
+          sistema alimentar.
+          O mapeamento foi realizado para contribuir na construção
+          da tipologia de agricultura proposta pela pesquisa,
+          sobretudo com elementos não disponíveis em análises
+          quantitativas (como comercialização e localização) e criar
+          um acervo de informações para auxiliar a escolha dos
+          estudos de caso segundo critérios específicos.
+          A partir de 10 casos pré-selecionados, desenvolvemos
+          quatro estudos de caso em profundidade, aplicando
+          modelos de análise econômico-financeira. A coleta de
+          dados foi feita em conjunto com os agricultores e também
+          subsidiou a elaboração de dois casos hipotéticos.
+        </p>
+        <p>
+          Mais informações acerca da metodologia, de outros
+          resultados da pesquisa e do referencial utilizado, estão
+          disponíveis nos links abaixo.
+        </p>
+        <p class="call-to-download">
+          <a href="https://www.escolhas.org/wp-content/uploads/2020/11/Sum%C3%A1rio-Executivo-Mais-perto-do-que-se-imagina-a-produ%C3%A7%C3%A3o-de-alimentos-na-metr%C3%B3pole-de-S%C3%A3o-Paulo.pdf" class="download-button" target="_blank">Sumário Executivo</a>
+          <a href="https://www.escolhas.org/wp-content/uploads/2020/12/Relatorio-Mais-perto-do-que-se-imagina-os-desafios-da-produ%C3%A7%C3%A3o-de-alimentos-na-metropole-de-S%C3%A3o-Paulo-1.pdf" class="download-button" target="_blank">Estudo completo</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+    
+  
+    
+      
+<!-- Dados abertos -->
+<section class="section-dados-abertos clearfix" id="dados-abertos">
+  <div class="container">
+    <div class="two-columns">
+      <div class="column">
+        <h2>Dados abertos</h2>
+        <p>
+          Os dados utilizados pelo estudo para a elabora&ccedil;&atilde;o das visualiza&ccedil;&otilde;es cartogr&aacute;ficas, encontram-se dispon&iacute;veis para download.
+        </p>
+        <div class="source-tree">
+          <ul>
+            <li class="folder">
+              <a href="#" target="_blank">Base cartogr&aacute;fica</a>
+              <ul>
+                <li class="file"><a href="#" target="_blank">Limite RMSP</a></li>
+                <li class="file"><a href="#" target="_blank">Limite munic&iacute;pios</a></li>
+                <li class="file"><a href="#" target="_blank">&Aacute;rea urbana</a></li>
+              </ul>
+            </li>
+            <li class="folder">
+              <a href="#" target="_blank">Estabelecimentos e produ&ccedil;&atilde;o</a>
+              <ul>
+                <li class="file"><a href="#" target="_blank">Estabelecimentos agropecu&aacute;rios</a></li>
+                <li class="file"><a href="#" target="_blank">&Aacute;reas ambientais</a></li>
+                <li class="file"><a href="#" target="_blank">Produ&ccedil;&atilde;o por munic&iacute;pio - VBP</a></li>
+              </ul>
+            </li>
+            <li class="folder">
+              <a href="#" target="_blank">Comercializa&ccedil;&atilde;o</a>
+              <ul>
+                <li class="file"><a href="#" target="_blank">Abastecimento p&uacute;blico</a></li>
+                <li class="file"><a href="#" target="_blank">Escolas p&uacute;blicas - Ensino infantil e fundamental</a></li>
+                <li class="file"><a href="#" target="_blank">Estabelecimentos ultraprocessados</a></li>
+              </ul>
+            </li>
+            <li class="folder">
+              <a href="#" target="_blank">Complementares</a>
+              <ul>
+                <li class="file"><a href="#" target="_blank">&Iacute;ndice de Vulnerabilidade Paulista</a></li>
+                <li class="file"><a href="#" target="_blank">Densidade populacional</a></li>
+                <li class="file"><a href="#" target="_blank">Uso do solo - MapBiomas</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="column">
+        <h2>Ficha técnica</h2>
+
+        <h4>Coordenação geral:</h4>
+        <p>Jaqueline da Luz Ferreira (Instituto Escolhas)</p>
+
+        <h4>Coordenação Técnica:</h4>
+        <p>Fernando de Mello Franco (Instituto Urbem)</p>
+
+        <h4>Pesquisadores:</h4>
+        <p>
+          Marcela Alonso Ferreira, Vitória Oliveira Pereira de Souza
+          Leão, Leandro Cizotto e Carolina Passos
+        </p>
+        <h4>Colaboradores:</h4>
+        <p>
+          Caio Bifaroni, Fernando Gaiger,Jay Van Amstel, Márcio
+          Selva, Osvaldo Aly, Peter May, Roberta Curan, Sebastião
+          Wilson Tivelli, Shigueo Watanabe, Tauan Manieri
+        </p>
+
+        <div class="about">
+          <p>
+            Os dados e material da pesquisa s&atilde;o p&uacute;blicos, abertos e gratuitos sob licen&ccedil;a Creative Commons CC-CY-SA e mediante a refer&ecirc;ncia da fonte, conforme o seguinte formato:
+          </p>
+          <p>
+            Instituto Escolhas, Instituto Urbem. Mais perto do que se imagina: os desafios da produ&ccedil;&atilde;o de alimentos na Metr&oacute;pole de S&atilde;o Paulo, 2020.
+          </p>
+          <p>
+            Contato <strong>institucional@escolhas.org</strong>
+          </p>
+        </div>
+
+        <div class="logos">
+          <div class="logo">
+            Apoio
+            <a href="#" target="_blank">
+              <img src="/static/images/logo-porticus-preto.png" alt="Porticus">
+            </a>
+          </div>
+
+          <div class="logo">
+            Parceria
+            <a href="#" target="_blank">
+              <img src="/static/images/logo-urbem.png" alt="Instituto URBEM">
+            </a>
+          </div>
+
+          <div class="logo">
+            Realização
+            <a href="#" target="_blank">
+              <img src="/static/images/logo-escolhas-preto.svg" alt="Instituto Escolhas">
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+    
+  
+
+</div> <!-- wrapper -->
+<script src="/static/scripts/index.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N0M4DZPT9K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N0M4DZPT9K');
+</script>
+
+</body>
+</html>
