@@ -3,7 +3,7 @@ var trigger = new ScrollTrigger.default();
 // Counters callback
 function animateCallback(trigger) {
   let obj = trigger.element;
-  let duration = 1250;
+  let duration = 1500;
   let start = 0;
   let startTimestamp = null;
   let end = parseInt(obj.innerHTML);

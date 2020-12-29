@@ -1136,6 +1136,13 @@ section.section-potencial.parallax::after {
 .section-dados-abertos .references li a {
   color: inherit;
 }
+.section-dados-abertos a {
+  color: inherit;
+  text-decoration: underline;
+}
+.section-dados-abertos strong a {
+  text-decoration: none;
+}
 .section-dados-abertos .source-tree ul {
   list-style: none;
   margin: 0;
@@ -1149,6 +1156,7 @@ section.section-potencial.parallax::after {
   margin-bottom: 0.2rem;
   line-height: 1.2rem;
 }
+.section-dados-abertos .source-tree li span,
 .section-dados-abertos .source-tree li a {
   vertical-align: top;
 }
@@ -1161,6 +1169,7 @@ section.section-potencial.parallax::after {
 .section-dados-abertos .source-tree li.folder ul {
   margin-left: 2rem;
 }
+.section-dados-abertos .source-tree li.folder > span,
 .section-dados-abertos .source-tree li.folder > a {
   display: inline-block;
   margin-bottom: 0.7rem;
@@ -1324,6 +1333,12 @@ section.section-potencial.parallax::after {
   }
   .tipologias-content-container tbody td {
     padding: 2px 2px 2px 0;
+  }
+  html {
+    scroll-snap-type: unset;
+  }
+  header, section {
+    scroll-snap-align: unset;
   }
 }
 
