@@ -613,13 +613,16 @@ document.addEventListener('DOMContentLoaded', function () {
     el.addEventListener('mouseenter', function (e) {
       e.preventDefault();
       displayElement.style.display = 'block';
+      magnifierGlass.style.display = 'block';
     });
     el.addEventListener('mouseout', function (e) {
       e.preventDefault();
       displayElement.style.display = 'none';
+      magnifierGlass.style.display = 'none';
     });
     el.addEventListener('mousemove', function (e) {
       e.preventDefault();
+      magnifierGlass.style.display = 'block';
       if (e.target.classList.contains('to-magnify')) {
         posX = e.target.offsetLeft - e.target.scrollLeft;
         posY = e.target.offsetTop - e.target.scrollTop;
@@ -635,6 +638,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   });
+
 
 });
 
