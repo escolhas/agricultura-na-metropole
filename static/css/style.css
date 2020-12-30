@@ -109,14 +109,14 @@ p.strong {
   margin-top: 2rem;
 }
 p.data-legend {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-family: 'Roboto', sans-serif;
 }
 p + p.data-legend {
   margin-top: 2rem;
 }
 span + p.data-legend {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 p.data-legend + p.data-legend {
   margin-top: -0.5rem;
