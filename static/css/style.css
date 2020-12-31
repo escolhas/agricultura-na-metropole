@@ -583,8 +583,9 @@ section.section-potencial.parallax::after {
   -webkit-touch-callout: none;
 }
 .graph.magnifier span {
-  padding-left: 12%;
-  font-size: 1.4rem;
+  padding-left: 10%;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 #magnifier-glass {
   display: none;
@@ -1316,6 +1317,9 @@ section.section-potencial.parallax::after {
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear, display 0.5s linear;
 }
+.tipologias-content-container h4 {
+  font-size: 1.3rem;
+}
 #tipologias-content-default {
   display: flex;
   visibility: visible;
@@ -1348,6 +1352,9 @@ section.section-potencial.parallax::after {
   }
   .tipologias-content-container h3 {
     font-size: 1rem;
+  }
+  .tipologias-content-container h4 {
+    font-size: 1.3rem;
   }
   .tipologias-content-container table {
     font-size: 0.8rem;
@@ -1397,6 +1404,9 @@ section.section-potencial.parallax::after {
     justify-content: unset;
   }
   .tipologias-content-container h3 {
+    font-size: 1rem;
+  }
+  .tipologias-content-container h4 {
     font-size: 1rem;
   }
   .tipologias-content-container table {
