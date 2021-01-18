@@ -342,6 +342,13 @@ const chartEstabelecimentos = {
     groups: [['nao_pronaf', 'pronaf_b', 'pronaf_v', 'nao_familiar']],
     order: 'asc',
   },
+  tooltip: {
+    format: {
+      // title: function (x, index) { return 'Data ' + x; },
+      name: function (name, ratio, id, index) { return name; },
+      value: function (value, ratio, id, index) { return value + '%'; }
+    }
+  },
   axis: {
     x: {
       categories: ['número de estabelecimentos (5.083)', 'área dos estabelecimentos (123.459ha)'],
