@@ -11,7 +11,7 @@ https://agriculturanametropole.escolhas.org/
 
 Esse código-fonte presente nesse repositório está protegido pela linceça [AGPL-3.0](LICENSE).
 
-Os dados usados e o material da pesquisa "Mais perto do que se imagina: os desafios da produção de alimentos na Metrópole de São Paulo, 2020" por [Instituto Escolhas](https://www.escolhas.org/en/) e [Instituto Urbem](https://www.urbem.org.br/) está licenciado sob [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR).
+Os dados usados e o material da pesquisa "Mais perto do que se imagina: os desafios da produção de alimentos na Metrópole de São Paulo, 2020" por [Instituto Escolhas](https://www.escolhas.org/en/) e [Instituto Urbem](https://www.urbem.org.br/) estão licenciados sob [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR).
 
 ### Icones
 
